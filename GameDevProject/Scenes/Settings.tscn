@@ -1,0 +1,77 @@
+[gd_scene format=3 uid="uid://c8l80emx6xhqg"]
+
+[ext_resource type="Script" uid="uid://bd2h8r00eiyer" path="res://Scenes/settings.gd" id="1_4hxq3"]
+
+[node name="Settings" type="Control" unique_id=501353160]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_4hxq3")
+
+[node name="Volume" type="HSlider" parent="." unique_id=869889747]
+layout_mode = 0
+offset_left = 272.0
+offset_top = 304.0
+offset_right = 944.0
+offset_bottom = 376.0
+
+[node name="Volume Label" type="Label" parent="." unique_id=2135638687]
+layout_mode = 0
+offset_left = 256.0
+offset_top = 256.0
+offset_right = 448.0
+offset_bottom = 319.0
+theme_override_font_sizes/font_size = 40
+text = "Volume"
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Settingtext" type="Label" parent="." unique_id=409489612]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 896.0
+offset_right = 1160.5
+offset_bottom = 92.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 67
+text = "Settings"
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Quit" type="Button" parent="." unique_id=784059456]
+layout_mode = 0
+offset_left = 72.0
+offset_top = 904.0
+offset_right = 344.0
+offset_bottom = 1024.0
+theme_override_font_sizes/font_size = 31
+text = "Go back to menu"
+
+[node name="Resolution" type="OptionButton" parent="." unique_id=661559428]
+layout_mode = 0
+offset_left = 488.0
+offset_top = 400.0
+offset_right = 680.0
+offset_bottom = 440.0
+item_count = 3
+popup/item_0/text = "1920x1080"
+popup/item_0/id = 0
+popup/item_1/text = "1600x900"
+popup/item_1/id = 1
+popup/item_2/text = "1280x720"
+popup/item_2/id = 2
+
+[node name="Resolution Label" type="Label" parent="." unique_id=706190031]
+layout_mode = 0
+offset_left = 256.0
+offset_top = 384.0
+offset_right = 472.0
+offset_bottom = 447.0
+theme_override_font_sizes/font_size = 40
+text = "Resolution"
+vertical_alignment = 1
+autowrap_mode = 2
+
+[connection signal="value_changed" from="Volume" to="." method="_on_volume_value_changed"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
+[connection signal="item_selected" from="Resolution" to="." method="_on_resolution_item_selected"]

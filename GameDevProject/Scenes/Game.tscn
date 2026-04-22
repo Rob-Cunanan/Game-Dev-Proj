@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://cc3da7rvyspug"]
+
+[ext_resource type="Script" uid="uid://wp4bxhujcbjw" path="res://Scenes/game.gd" id="1_iukft"]
+[ext_resource type="Texture2D" uid="uid://cd3u733cjaxlm" path="res://Assets/Lebron.png" id="2_gl6un"]
+
+[node name="MainGame" type="Node2D" unique_id=1939119906]
+script = ExtResource("1_iukft")
+
+[node name="Quit" type="Button" parent="." unique_id=1495483776]
+offset_left = 720.0
+offset_top = 168.0
+offset_right = 888.0
+offset_bottom = 232.0
+text = "Go back to menu"
+
+[node name="Label" type="Label" parent="." unique_id=806691531]
+offset_left = 704.0
+offset_top = 80.0
+offset_right = 936.0
+offset_bottom = 120.0
+text = "This is the Main Game Screen"
+
+[node name="Untitled" type="Sprite2D" parent="." unique_id=1577736461]
+position = Vector2(328, 320)
+texture = ExtResource("2_gl6un")
+
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]

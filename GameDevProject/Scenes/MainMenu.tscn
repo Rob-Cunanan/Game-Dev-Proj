@@ -1,0 +1,51 @@
+[gd_scene format=3 uid="uid://4pqund3nukl7"]
+
+[ext_resource type="Script" uid="uid://lekjychlp37n" path="res://Scenes/main_menu.gd" id="1_tt5f1"]
+
+[node name="MainMenu" type="Node2D" unique_id=604070256]
+script = ExtResource("1_tt5f1")
+
+[node name="Buttons" type="Control" parent="." unique_id=1003949432]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Start" type="Button" parent="Buttons" unique_id=1292623660]
+layout_mode = 0
+offset_left = 136.0
+offset_top = 664.0
+offset_right = 383.78
+offset_bottom = 762.125
+theme_override_font_sizes/font_size = 32
+text = "Start"
+
+[node name="Settings" type="Button" parent="Buttons" unique_id=909597436]
+layout_mode = 0
+offset_left = 136.0
+offset_top = 792.0
+offset_right = 383.78
+offset_bottom = 890.125
+theme_override_font_sizes/font_size = 32
+text = "Settings"
+
+[node name="Quit" type="Button" parent="Buttons" unique_id=1495006134]
+layout_mode = 0
+offset_left = 136.0
+offset_top = 920.0
+offset_right = 383.78
+offset_bottom = 1018.125
+theme_override_font_sizes/font_size = 32
+text = "Quit"
+
+[node name="Label" type="Label" parent="." unique_id=262240292]
+offset_left = 536.0
+offset_top = 128.0
+offset_right = 1312.0
+offset_bottom = 355.0
+theme_override_font_sizes/font_size = 165
+text = "Game Title"
+
+[connection signal="pressed" from="Buttons/Start" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="Buttons/Settings" to="." method="_on_settings_pressed"]
+[connection signal="pressed" from="Buttons/Quit" to="." method="_on_quit_pressed"]
