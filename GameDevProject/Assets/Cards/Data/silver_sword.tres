@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://bjf0kq576ht3x"]
+
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_lg8xy"]
+[ext_resource type="Texture2D" uid="uid://e3teysv8dvsb" path="res://Assets/Cards/Data/TTRPG-Art-Asset_01.png" id="1_sgjh2"]
+
+[resource]
+script = ExtResource("1_lg8xy")
+card_name = "Silver Sword"
+affinity = "Warrior"
+effect_text = "Deal 8 damage. +1 Warrior"
+art = ExtResource("1_sgjh2")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"
