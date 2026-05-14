@@ -10,10 +10,14 @@ config_version=5
 
 [application]
 
-config/name="New Game Project"
+config/name="Card Hero"
 run/main_scene="uid://4pqund3nukl7"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+Audiomanager="*uid://dte8pq4blcwvy"
 
 [display]
 

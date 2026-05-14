@@ -1,9 +1,26 @@
 [gd_scene format=3 uid="uid://4pqund3nukl7"]
 
 [ext_resource type="Script" uid="uid://lekjychlp37n" path="res://Scenes/main_menu.gd" id="1_tt5f1"]
+[ext_resource type="Texture2D" uid="uid://bu656nuvlelpo" path="res://Assets/ButtonUI/32x16 buttons blank Style 1/Orange (1).png" id="2_8saeu"]
+[ext_resource type="Shader" uid="uid://c6mnx6hc26tsx" path="res://Scenes/Scroll.gdshader" id="2_8um5k"]
+[ext_resource type="Texture2D" uid="uid://dko7p7jtni07a" path="res://Assets/bg/parallaxbg.png" id="3_8um5k"]
+[ext_resource type="Texture2D" uid="uid://dq74ehyorwrsp" path="res://Assets/ButtonUI/32x16 buttons blank Style 1/Orange (2).png" id="3_ghw46"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_xim88"]
+shader = ExtResource("2_8um5k")
 
 [node name="MainMenu" type="Node2D" unique_id=604070256]
 script = ExtResource("1_tt5f1")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1436316270]
+show_behind_parent = true
+texture_filter = 1
+texture_repeat = 3
+material = SubResource("ShaderMaterial_xim88")
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("3_8um5k")
+expand_mode = 2
 
 [node name="Buttons" type="Control" parent="." unique_id=1003949432]
 layout_mode = 3
@@ -11,32 +28,71 @@ anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 
-[node name="Start" type="Button" parent="Buttons" unique_id=1292623660]
+[node name="Start" type="TextureButton" parent="Buttons" unique_id=1762972317]
+texture_filter = 1
 layout_mode = 0
-offset_left = 136.0
-offset_top = 664.0
-offset_right = 383.78
-offset_bottom = 762.125
-theme_override_font_sizes/font_size = 32
-text = "Start"
+offset_left = 104.0
+offset_top = 568.0
+offset_right = 429.0
+offset_bottom = 724.0
+texture_normal = ExtResource("2_8saeu")
+texture_pressed = ExtResource("3_ghw46")
+stretch_mode = 0
 
-[node name="Settings" type="Button" parent="Buttons" unique_id=909597436]
+[node name="Label" type="Label" parent="Buttons/Start" unique_id=752854410]
 layout_mode = 0
-offset_left = 136.0
-offset_top = 792.0
-offset_right = 383.78
-offset_bottom = 890.125
-theme_override_font_sizes/font_size = 32
-text = "Settings"
+offset_left = 18.0
+offset_top = 7.0
+offset_right = 307.0
+offset_bottom = 129.0
+theme_override_font_sizes/font_size = 45
+text = "START"
+horizontal_alignment = 1
+vertical_alignment = 1
 
-[node name="Quit" type="Button" parent="Buttons" unique_id=1495006134]
+[node name="Settings" type="TextureButton" parent="Buttons" unique_id=1996963829]
+texture_filter = 1
 layout_mode = 0
-offset_left = 136.0
-offset_top = 920.0
-offset_right = 383.78
-offset_bottom = 1018.125
-theme_override_font_sizes/font_size = 32
+offset_left = 104.0
+offset_top = 728.0
+offset_right = 429.0
+offset_bottom = 884.0
+texture_normal = ExtResource("2_8saeu")
+texture_pressed = ExtResource("3_ghw46")
+stretch_mode = 0
+
+[node name="Label" type="Label" parent="Buttons/Settings" unique_id=1229352702]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 7.0
+offset_right = 307.0
+offset_bottom = 129.0
+theme_override_font_sizes/font_size = 45
+text = "SETTINGS"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Quit" type="TextureButton" parent="Buttons" unique_id=1101428767]
+texture_filter = 1
+layout_mode = 0
+offset_left = 104.0
+offset_top = 896.0
+offset_right = 429.0
+offset_bottom = 1052.0
+texture_normal = ExtResource("2_8saeu")
+texture_pressed = ExtResource("3_ghw46")
+stretch_mode = 0
+
+[node name="Label" type="Label" parent="Buttons/Quit" unique_id=933989714]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 7.0
+offset_right = 307.0
+offset_bottom = 129.0
+theme_override_font_sizes/font_size = 45
 text = "Quit"
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="Label" type="Label" parent="." unique_id=262240292]
 offset_left = 536.0
@@ -44,7 +100,7 @@ offset_top = 128.0
 offset_right = 1312.0
 offset_bottom = 355.0
 theme_override_font_sizes/font_size = 165
-text = "Game Title"
+text = "Card Hero"
 
 [connection signal="pressed" from="Buttons/Start" to="." method="_on_start_pressed"]
 [connection signal="pressed" from="Buttons/Settings" to="." method="_on_settings_pressed"]

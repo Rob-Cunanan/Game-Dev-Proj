@@ -1,11 +1,51 @@
 [gd_scene format=3 uid="uid://c8l80emx6xhqg"]
 
 [ext_resource type="Script" uid="uid://bd2h8r00eiyer" path="res://Scenes/settings.gd" id="1_4hxq3"]
+[ext_resource type="Shader" uid="uid://c6mnx6hc26tsx" path="res://Scenes/Scroll.gdshader" id="2_yrknh"]
+[ext_resource type="Texture2D" uid="uid://dko7p7jtni07a" path="res://Assets/bg/parallaxbg.png" id="3_w1nw0"]
+[ext_resource type="Texture2D" uid="uid://bu656nuvlelpo" path="res://Assets/ButtonUI/32x16 buttons blank Style 1/Orange (1).png" id="4_mjqtt"]
+[ext_resource type="Texture2D" uid="uid://dq74ehyorwrsp" path="res://Assets/ButtonUI/32x16 buttons blank Style 1/Orange (2).png" id="5_ppjuv"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_mjqtt"]
+shader = ExtResource("2_yrknh")
 
 [node name="Settings" type="Control" unique_id=501353160]
 layout_mode = 3
 anchors_preset = 0
 script = ExtResource("1_4hxq3")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=981590496]
+show_behind_parent = true
+texture_filter = 1
+texture_repeat = 3
+material = SubResource("ShaderMaterial_mjqtt")
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("3_w1nw0")
+expand_mode = 2
+
+[node name="QUIT" type="TextureButton" parent="TextureRect" unique_id=524892652]
+texture_filter = 1
+layout_mode = 0
+offset_left = 72.0
+offset_top = 840.0
+offset_right = 397.0
+offset_bottom = 996.0
+texture_normal = ExtResource("4_mjqtt")
+texture_pressed = ExtResource("5_ppjuv")
+stretch_mode = 0
+
+[node name="Label" type="Label" parent="TextureRect/QUIT" unique_id=1907978144]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 7.0
+offset_right = 307.0
+offset_bottom = 129.0
+theme_override_font_sizes/font_size = 45
+text = "BACK"
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="Volume" type="HSlider" parent="." unique_id=869889747]
 layout_mode = 0
@@ -13,6 +53,9 @@ offset_left = 272.0
 offset_top = 304.0
 offset_right = 944.0
 offset_bottom = 376.0
+max_value = 1.0
+step = 0.01
+value = 0.5
 
 [node name="Volume Label" type="Label" parent="." unique_id=2135638687]
 layout_mode = 0
@@ -37,15 +80,6 @@ theme_override_font_sizes/font_size = 67
 text = "Settings"
 vertical_alignment = 1
 autowrap_mode = 2
-
-[node name="Quit" type="Button" parent="." unique_id=784059456]
-layout_mode = 0
-offset_left = 72.0
-offset_top = 904.0
-offset_right = 344.0
-offset_bottom = 1024.0
-theme_override_font_sizes/font_size = 31
-text = "Go back to menu"
 
 [node name="Resolution" type="OptionButton" parent="." unique_id=661559428]
 layout_mode = 0
@@ -72,6 +106,6 @@ text = "Resolution"
 vertical_alignment = 1
 autowrap_mode = 2
 
+[connection signal="pressed" from="TextureRect/QUIT" to="." method="_on_quit_pressed"]
 [connection signal="value_changed" from="Volume" to="." method="_on_volume_value_changed"]
-[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
 [connection signal="item_selected" from="Resolution" to="." method="_on_resolution_item_selected"]

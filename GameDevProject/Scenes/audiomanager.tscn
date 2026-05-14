@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://dte8pq4blcwvy"]
+
+[ext_resource type="AudioStream" uid="uid://hlqfcystg3ws" path="res://Assets/Audio/MainMenu.mp3" id="1_ejid4"]
+[ext_resource type="Script" uid="uid://cuouh1l8tvbju" path="res://Scenes/audiomanager.gd" id="1_vxda6"]
+
+[node name="Audiomanager" type="Node2D" unique_id=1494444752]
+script = ExtResource("1_vxda6")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=335165314]
+stream = ExtResource("1_ejid4")
+parameters/looping = true
