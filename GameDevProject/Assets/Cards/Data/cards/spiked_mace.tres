@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://1rkpkqyogy88"]
+
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_3kqtc"]
+[ext_resource type="Texture2D" uid="uid://bn68onxwfdnqk" path="res://Assets/Cards/Data/TTRPG-Art-Asset_05.png" id="1_q106y"]
+
+[resource]
+script = ExtResource("1_3kqtc")
+card_name = "Spiked Mace"
+rarity = "R"
+affinity = "Warrior"
+effect_text = "Deal 12 damage. "
+art = ExtResource("1_q106y")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

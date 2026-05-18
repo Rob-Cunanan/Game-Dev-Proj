@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://cs6fl68ocbpbg"]
+
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_2dbq3"]
+[ext_resource type="Texture2D" uid="uid://bud7yeuq1tldy" path="res://Assets/Cards/Data/TTRPG-Art-Asset_28.png" id="1_jtys3"]
+
+[resource]
+script = ExtResource("1_2dbq3")
+card_name = "Dark Chest"
+rarity = "R"
+affinity = "Priest"
+effect_text = "Gain 12 Block. heal 3 HP"
+art = ExtResource("1_jtys3")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

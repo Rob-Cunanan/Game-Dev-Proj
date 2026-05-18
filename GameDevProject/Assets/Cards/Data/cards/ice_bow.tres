@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://cp6ic8esp02q4"]
+
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_jbume"]
+[ext_resource type="Texture2D" uid="uid://bxqirnjtplq0y" path="res://Assets/Cards/Data/TTRPG-Art-Asset_13.png" id="1_qlo1e"]
+
+[resource]
+script = ExtResource("1_jbume")
+card_name = "Ice Bow"
+rarity = "R"
+affinity = "Mage"
+effect_text = "Deal 14 magic damage."
+art = ExtResource("1_qlo1e")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

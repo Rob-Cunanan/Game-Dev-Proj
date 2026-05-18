@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://dn8brjqjo33b6"]
+
+[ext_resource type="Texture2D" uid="uid://2q112wadujwl" path="res://Assets/Cards/Data/TTRPG-Art-Asset_25.png" id="1_6i208"]
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_x8t48"]
+
+[resource]
+script = ExtResource("1_x8t48")
+card_name = "Bone Armor"
+rarity = "R"
+affinity = "Priest"
+effect_text = "Gain 14 Block. When hit, restore 2 HP. [Soul Bond: Skeletons gain +3 Block]"
+art = ExtResource("1_6i208")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

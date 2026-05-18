@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://bul11vfyt3wry"]
+
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_cy24u"]
+[ext_resource type="Texture2D" uid="uid://jw2caat5u8j6" path="res://Assets/Cards/Data/TTRPG-Art-Asset_43.png" id="1_nwswf"]
+
+[resource]
+script = ExtResource("1_cy24u")
+card_name = "Ornate Belt"
+rarity = "R"
+affinity = "Mage/Priest"
+effect_text = "Gain 5 Block. Heal 5 HP"
+art = ExtResource("1_nwswf")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://bfh5yflofxl3q"]
+
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_7mv5r"]
+[ext_resource type="Texture2D" uid="uid://cdtap61s8a8eq" path="res://Assets/Cards/Data/TTRPG-Art-Asset_04.png" id="1_onofd"]
+
+[resource]
+script = ExtResource("1_7mv5r")
+card_name = "Bone Blade"
+rarity = "UC"
+affinity = "Warrior/Priest"
+effect_text = "Deal 9 damage.  heal 3 HP."
+art = ExtResource("1_onofd")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

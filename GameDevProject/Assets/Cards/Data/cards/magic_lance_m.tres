@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://bp5beqc4djhis"]
+
+[ext_resource type="Texture2D" uid="uid://cd2c5rp55ixah" path="res://Assets/Cards/Data/TTRPG-Art-Asset_08.png" id="1_8v6dn"]
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="2_xclwf"]
+
+[resource]
+script = ExtResource("2_xclwf")
+card_name = "Magic Lance"
+rarity = "M"
+affinity = "Mage/Warrior"
+effect_text = "Deal 25 magic damage"
+art = ExtResource("1_8v6dn")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

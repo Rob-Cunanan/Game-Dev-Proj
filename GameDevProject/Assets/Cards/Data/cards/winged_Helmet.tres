@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://dm71gj7yka788"]
+
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_2atix"]
+[ext_resource type="Texture2D" uid="uid://cqvc132x73aec" path="res://Assets/Cards/Data/TTRPG-Art-Asset_20.png" id="1_c84ih"]
+
+[resource]
+script = ExtResource("1_2atix")
+card_name = "Winged Helmet"
+rarity = "E"
+affinity = "Warrior/Priest"
+effect_text = "Gain 12 Block. Heal 5 HP"
+art = ExtResource("1_c84ih")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

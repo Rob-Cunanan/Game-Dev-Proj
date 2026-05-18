@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://btuk3ggl23vgk"]
+
+[ext_resource type="Texture2D" uid="uid://bqi15a2ifaqnd" path="res://Assets/Cards/Data/TTRPG-Art-Asset_10.png" id="1_j3twp"]
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="2_a6hjm"]
+
+[resource]
+script = ExtResource("2_a6hjm")
+card_name = "Triple Daggers"
+rarity = "M"
+affinity = "Warrior"
+effect_text = "Deal 28 damage"
+art = ExtResource("1_j3twp")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

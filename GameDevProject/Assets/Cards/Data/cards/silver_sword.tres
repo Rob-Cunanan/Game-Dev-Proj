@@ -7,6 +7,6 @@
 script = ExtResource("1_lg8xy")
 card_name = "Silver Sword"
 affinity = "Warrior"
-effect_text = "Deal 8 damage. +1 Warrior"
+effect_text = "Deal 8 damage."
 art = ExtResource("1_sgjh2")
 metadata/_custom_type_script = "uid://dcf3gp1byimu7"

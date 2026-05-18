@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://b5weagiqykmvw"]
+
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_j77pr"]
+[ext_resource type="Texture2D" uid="uid://jqwaa6kggxi1" path="res://Assets/Cards/Data/TTRPG-Art-Asset_23.png" id="1_ow4gl"]
+
+[resource]
+script = ExtResource("1_j77pr")
+card_name = "Gold Ring"
+rarity = "UC"
+affinity = "Mage"
+effect_text = "Deals 9 magic damage"
+art = ExtResource("1_ow4gl")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

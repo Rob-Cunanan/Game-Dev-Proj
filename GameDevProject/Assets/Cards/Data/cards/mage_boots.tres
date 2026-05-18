@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://bbu8a7fh37uch"]
+
+[ext_resource type="Texture2D" uid="uid://c27oiqlxkhh3o" path="res://Assets/Cards/Data/TTRPG-Art-Asset_34.png" id="1_cargo"]
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="2_syx58"]
+
+[resource]
+script = ExtResource("2_syx58")
+card_name = "Mage Boots"
+rarity = "UC"
+affinity = "Mage"
+effect_text = "Gain 6 Block"
+art = ExtResource("1_cargo")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

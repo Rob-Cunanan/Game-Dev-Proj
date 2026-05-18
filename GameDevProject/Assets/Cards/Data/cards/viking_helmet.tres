@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://d0iolfh6suc2b"]
+
+[ext_resource type="Texture2D" uid="uid://f26nwrtlgmwo" path="res://Assets/Cards/Data/TTRPG-Art-Asset_19.png" id="1_4un55"]
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_emhi2"]
+
+[resource]
+script = ExtResource("1_emhi2")
+card_name = "Viking Helmet"
+rarity = "R"
+affinity = "Warrior"
+effect_text = "Gain 12 Block"
+art = ExtResource("1_4un55")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

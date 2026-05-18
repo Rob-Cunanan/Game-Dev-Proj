@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://bqtgnjwsbqlq1"]
+
+[ext_resource type="Texture2D" uid="uid://c1se5h6plsamv" path="res://Assets/Cards/Data/TTRPG-Art-Asset_24.png" id="1_x11j8"]
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="2_x111t"]
+
+[resource]
+script = ExtResource("2_x111t")
+card_name = "Studded Vest"
+affinity = "Warrior"
+effect_text = "Gain 6 Block"
+art = ExtResource("1_x11j8")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

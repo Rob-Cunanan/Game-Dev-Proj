@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://g1f6mv2i4yox"]
+
+[ext_resource type="Texture2D" uid="uid://b6vjg2w0mixq" path="res://Assets/Cards/Data/TTRPG-Art-Asset_31.png" id="1_3m4xx"]
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_y21a7"]
+
+[resource]
+script = ExtResource("1_y21a7")
+card_name = "Iron Gauntlets"
+rarity = "UC"
+affinity = "Warrior"
+effect_text = " Deals 4 damage. Gain 3 Block."
+art = ExtResource("1_3m4xx")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://b0ejv7m1ufy6f"]
+
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_qx7vp"]
+[ext_resource type="Texture2D" uid="uid://bcih861vnylx3" path="res://Assets/Cards/Data/TTRPG-Art-Asset_30.png" id="1_ydtcp"]
+
+[resource]
+script = ExtResource("1_qx7vp")
+card_name = "Magic Satchel"
+rarity = "R"
+affinity = "Mage"
+effect_text = "Deal 12 magic damage. Gaib 3 Block."
+art = ExtResource("1_ydtcp")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://fag8ggn4yxni"]
+
+[ext_resource type="Texture2D" uid="uid://bxdvynucex4ln" path="res://Assets/Cards/Data/TTRPG-Art-Asset_33.png" id="1_4liuc"]
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="2_kvdxi"]
+
+[resource]
+script = ExtResource("2_kvdxi")
+card_name = "Gold Bracer"
+rarity = "UC"
+affinity = "Warrior/Mage"
+effect_text = "Gain 7 Block."
+art = ExtResource("1_4liuc")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

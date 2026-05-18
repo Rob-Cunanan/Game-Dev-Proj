@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://cy0c47fmf3tlx"]
+
+[ext_resource type="Texture2D" uid="uid://b0f1y8tljxv50" path="res://Assets/Cards/Data/TTRPG-Art-Asset_45.png" id="1_qp1uw"]
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="2_2blfs"]
+
+[resource]
+script = ExtResource("2_2blfs")
+card_name = "Claw Earrings"
+rarity = "UC"
+affinity = "Warrior"
+effect_text = "deals 9 damage"
+art = ExtResource("1_qp1uw")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

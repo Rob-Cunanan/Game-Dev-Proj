@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://tootyfmnrbxn"]
+
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_7u0yf"]
+[ext_resource type="Texture2D" uid="uid://bsvxn6s6cj22s" path="res://Assets/Cards/Data/TTRPG-Art-Asset_38.png" id="1_dosve"]
+
+[resource]
+script = ExtResource("1_7u0yf")
+card_name = "Claw Necklace"
+rarity = "UC"
+affinity = "Warrior/Priest"
+effect_text = "Deal 4 damage. Heal 4 HP."
+art = ExtResource("1_dosve")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

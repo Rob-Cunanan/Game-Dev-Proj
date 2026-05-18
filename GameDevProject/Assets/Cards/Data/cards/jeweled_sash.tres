@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://d11h620834qj1"]
+
+[ext_resource type="Texture2D" uid="uid://ceqocxce7ryih" path="res://Assets/Cards/Data/TTRPG-Art-Asset_44.png" id="1_xswlh"]
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="2_wv3mc"]
+
+[resource]
+script = ExtResource("2_wv3mc")
+card_name = "Jeweled Sash"
+rarity = "E"
+affinity = "Priest"
+effect_text = "Heal 15 HP"
+art = ExtResource("1_xswlh")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

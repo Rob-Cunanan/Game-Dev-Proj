@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://cs0c8bulltu3l"]
+
+[ext_resource type="Texture2D" uid="uid://dfjuwehfsslx7" path="res://Assets/Cards/Data/TTRPG-Art-Asset_32.png" id="1_yqhk1"]
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="2_4v21v"]
+
+[resource]
+script = ExtResource("2_4v21v")
+card_name = "Purple Gloves"
+rarity = "R"
+affinity = "Mage "
+effect_text = "Deal 12 magic damage"
+art = ExtResource("1_yqhk1")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

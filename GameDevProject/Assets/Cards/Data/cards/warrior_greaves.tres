@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://cb2p0tysahpw1"]
+
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_e0omv"]
+[ext_resource type="Texture2D" uid="uid://bpvcxi5jedxeo" path="res://Assets/Cards/Data/TTRPG-Art-Asset_36.png" id="1_lbj7c"]
+
+[resource]
+script = ExtResource("1_e0omv")
+card_name = "Warrior Greaves"
+rarity = "R"
+affinity = "Warrior"
+effect_text = "Gain 12 Block. "
+art = ExtResource("1_lbj7c")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

@@ -19,8 +19,8 @@ var rarity_backgrounds = {
 	"R": preload("res://Assets/Cards/Backgrounds/bg_rare.tres"),
 	"E": preload("res://Assets/Cards/Backgrounds/bg_epic.tres"),
 	"L": preload("res://Assets/Cards/Backgrounds/bg_legendary.tres"),
-	"Mythic": preload("res://Assets/Cards/Backgrounds/bg_mythic.tres"),
-	"Evolve": preload("res://Assets/Cards/Backgrounds/bg_evolve.tres")
+	"M": preload("res://Assets/Cards/Backgrounds/bg_mythic.tres"),
+	"EX": preload("res://Assets/Cards/Backgrounds/bg_evolve.tres")
 }
 
 var rarity_frames = {
@@ -29,8 +29,8 @@ var rarity_frames = {
 	"R": preload("res://Assets/Cards/Frames/frame_wood.tres"),
 	"E": preload("res://Assets/Cards/Frames/frame_silver.tres"),
 	"L": preload("res://Assets/Cards/Frames/frame_silver.tres"),
-	"Mythic": preload("res://Assets/Cards/Frames/frame_gold.tres"),
-	"Evolve": preload("res://Assets/Cards/Frames/frame_evolve.tres")
+	"M": preload("res://Assets/Cards/Frames/frame_gold.tres"),
+	"EX": preload("res://Assets/Cards/Frames/frame_evolve.tres")
 }
 
 var rarity_artframes = {
@@ -39,8 +39,8 @@ var rarity_artframes = {
 	"R": preload("res://Assets/Cards/Frames/artframe_wood.tres"),
 	"E": preload("res://Assets/Cards/Frames/artframe_silver.tres"),
 	"L": preload("res://Assets/Cards/Frames/artframe_silver.tres"),
-	"Mythic": preload("res://Assets/Cards/Frames/artframe_gold.tres"),
-	"Evolve": preload("res://Assets/Cards/Frames/artframe_evolve.tres")
+	"M": preload("res://Assets/Cards/Frames/artframe_gold.tres"),
+	"EX": preload("res://Assets/Cards/Frames/artframe_evolve.tres")
 }
 
 var affinity_badges = {

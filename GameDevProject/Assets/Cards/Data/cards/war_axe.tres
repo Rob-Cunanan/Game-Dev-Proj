@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://ca38dc4cvcehm"]
+
+[ext_resource type="Texture2D" uid="uid://b6ywvdnq76ufn" path="res://Assets/Cards/Data/TTRPG-Art-Asset_02.png" id="1_8fodo"]
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="2_485pf"]
+
+[resource]
+script = ExtResource("2_485pf")
+card_name = "War Axe"
+affinity = "Warrior"
+effect_text = "Deal 7 Damage."
+art = ExtResource("1_8fodo")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

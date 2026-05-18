@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://d0j8soh50vtgs"]
+
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_fkjs4"]
+[ext_resource type="Texture2D" uid="uid://cvdy55o71usr3" path="res://Assets/Cards/Data/TTRPG-Art-Asset_14.png" id="1_pve8t"]
+
+[resource]
+script = ExtResource("1_fkjs4")
+card_name = "Spiked Shield"
+rarity = "UC"
+affinity = "Warrior"
+effect_text = "Gain 8 Block. Deals 2 damage"
+art = ExtResource("1_pve8t")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

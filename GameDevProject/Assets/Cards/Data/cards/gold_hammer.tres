@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://dmpnalxk0xktl"]
+
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_1srkh"]
+[ext_resource type="Texture2D" uid="uid://bsnq1oflfoaxj" path="res://Assets/Cards/Data/TTRPG-Art-Asset_09.png" id="1_8sclr"]
+
+[resource]
+script = ExtResource("1_1srkh")
+card_name = "Gold Hammer"
+rarity = "R"
+affinity = "Warrior"
+effect_text = "Deal 12 damage"
+art = ExtResource("1_8sclr")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

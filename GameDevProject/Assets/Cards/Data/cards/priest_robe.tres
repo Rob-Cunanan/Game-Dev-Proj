@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://b6x22b6g7f8f0"]
+
+[ext_resource type="Texture2D" uid="uid://cu7la14jcwe0n" path="res://Assets/Cards/Data/TTRPG-Art-Asset_29.png" id="1_h17f3"]
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_wtv68"]
+
+[resource]
+script = ExtResource("1_wtv68")
+card_name = "Priest Robe"
+rarity = "R"
+affinity = "Priest"
+effect_text = "Heal 10 HP. Gain 6 Block."
+art = ExtResource("1_h17f3")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://dmei2yi3m1dst"]
+
+[ext_resource type="Texture2D" uid="uid://dr34oobyekpmc" path="res://Assets/Cards/Data/TTRPG-Art-Asset_12.png" id="1_mtubq"]
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_ny3wv"]
+
+[resource]
+script = ExtResource("1_ny3wv")
+card_name = "Bow"
+affinity = "Warrior"
+effect_text = "Deal 9 damage "
+art = ExtResource("1_mtubq")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

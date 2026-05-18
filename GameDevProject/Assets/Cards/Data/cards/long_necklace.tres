@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://cctpra4ya7fwg"]
+
+[ext_resource type="Texture2D" uid="uid://cm7nbe2k06p7k" path="res://Assets/Cards/Data/TTRPG-Art-Asset_39.png" id="1_cv1g1"]
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_e5dmw"]
+
+[resource]
+script = ExtResource("1_e5dmw")
+card_name = "Long Necklace"
+rarity = "UC"
+affinity = "Priest"
+effect_text = "Heal 6 HP."
+art = ExtResource("1_cv1g1")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

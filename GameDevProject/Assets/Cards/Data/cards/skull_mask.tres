@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://c2gt7n2dll56x"]
+
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_iuvnv"]
+[ext_resource type="Texture2D" uid="uid://b4tci0svel7i2" path="res://Assets/Cards/Data/TTRPG-Art-Asset_22.png" id="1_o27f7"]
+
+[resource]
+script = ExtResource("1_iuvnv")
+card_name = "Skull Mask"
+rarity = "UC"
+affinity = "Priest"
+effect_text = "Gain 6 Block."
+art = ExtResource("1_o27f7")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

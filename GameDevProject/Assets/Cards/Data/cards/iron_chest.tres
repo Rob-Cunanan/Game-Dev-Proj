@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://gtrbqv3rwhg3"]
+
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_lps2i"]
+[ext_resource type="Texture2D" uid="uid://cjs5ybpcnnxtx" path="res://Assets/Cards/Data/TTRPG-Art-Asset_27.png" id="1_shql2"]
+
+[resource]
+script = ExtResource("1_lps2i")
+card_name = "Iron Chest"
+rarity = "R"
+affinity = "Warrior"
+effect_text = "Gain 14 Block."
+art = ExtResource("1_shql2")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

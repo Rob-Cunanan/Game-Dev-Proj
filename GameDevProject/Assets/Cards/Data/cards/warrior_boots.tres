@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://cl3uhfury2gw"]
+
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_i1oxu"]
+[ext_resource type="Texture2D" uid="uid://w5x22kxghvas" path="res://Assets/Cards/Data/TTRPG-Art-Asset_35.png" id="1_ifaus"]
+
+[resource]
+script = ExtResource("1_i1oxu")
+card_name = "Warrior Boots"
+rarity = "R"
+affinity = "Warrior"
+effect_text = "Deal 12 Damage"
+art = ExtResource("1_ifaus")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

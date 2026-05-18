@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://bxjsylo7mhot8"]
+
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_d6ys6"]
+[ext_resource type="Texture2D" uid="uid://bw367wxk7802y" path="res://Assets/Cards/Data/TTRPG-Art-Asset_17.png" id="1_yaqer"]
+
+[resource]
+script = ExtResource("1_d6ys6")
+card_name = "Magic Staff"
+rarity = "R"
+affinity = "Mage"
+effect_text = "Deal 11 magic damage."
+art = ExtResource("1_yaqer")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://c6uj64gh5o6rf"]
+
+[ext_resource type="Texture2D" uid="uid://babvedv050dd6" path="res://Assets/Cards/Data/TTRPG-Art-Asset_41.png" id="1_2uwuh"]
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_7lclh"]
+
+[resource]
+script = ExtResource("1_7lclh")
+card_name = "Collar"
+affinity = "Priest"
+effect_text = "Heal 4 HP"
+art = ExtResource("1_2uwuh")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

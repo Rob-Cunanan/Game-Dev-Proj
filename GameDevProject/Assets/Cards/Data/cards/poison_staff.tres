@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://be6m37fc2vf7o"]
+
+[ext_resource type="Texture2D" uid="uid://cqe783xdnbiqb" path="res://Assets/Cards/Data/TTRPG-Art-Asset_03.png" id="1_fv4vx"]
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_mqpom"]
+
+[resource]
+script = ExtResource("1_mqpom")
+card_name = "Poison Staff"
+rarity = "UC"
+affinity = "Mage"
+effect_text = "Deal 9 magic Damage"
+art = ExtResource("1_fv4vx")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

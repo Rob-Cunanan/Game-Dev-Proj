@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://dfphcko447c2y"]
+
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_2b6v0"]
+[ext_resource type="Texture2D" uid="uid://dm2a323fy4ksw" path="res://Assets/Cards/Data/TTRPG-Art-Asset_26.png" id="1_5tvyc"]
+
+[resource]
+script = ExtResource("1_2b6v0")
+card_name = "Warrior Chest"
+rarity = "E"
+affinity = "Warrior"
+effect_text = "Gain 18 Block."
+art = ExtResource("1_5tvyc")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

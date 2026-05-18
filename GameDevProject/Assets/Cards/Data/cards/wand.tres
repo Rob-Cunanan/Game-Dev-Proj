@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://csb8775deikr5"]
+
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_2wxqw"]
+[ext_resource type="Texture2D" uid="uid://3y0k6l8dvadx" path="res://Assets/Cards/Data/TTRPG-Art-Asset_16.png" id="1_i26vy"]
+
+[resource]
+script = ExtResource("1_2wxqw")
+card_name = "Wand"
+rarity = "UC"
+affinity = "Mage"
+effect_text = "Deal 9 magic damage."
+art = ExtResource("1_i26vy")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

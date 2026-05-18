@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://bvva22fb67w8v"]
+
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_75pks"]
+[ext_resource type="Texture2D" uid="uid://f7ku6uikx5eb" path="res://Assets/Cards/Data/TTRPG-Art-Asset_06.png" id="1_plyk5"]
+
+[resource]
+script = ExtResource("1_75pks")
+card_name = "Battle Axe"
+rarity = "UC"
+affinity = "Warrior"
+effect_text = "Deal 11 damage."
+art = ExtResource("1_plyk5")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

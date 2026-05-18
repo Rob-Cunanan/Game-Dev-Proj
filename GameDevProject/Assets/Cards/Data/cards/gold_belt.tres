@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://b3rvqnbd7fim6"]
+
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_733wb"]
+[ext_resource type="Texture2D" uid="uid://cashw0guqk8ib" path="res://Assets/Cards/Data/TTRPG-Art-Asset_42.png" id="1_sunqv"]
+
+[resource]
+script = ExtResource("1_733wb")
+card_name = "Gold Belt"
+rarity = "UC"
+affinity = "Warrior"
+effect_text = "Gain 8 Block. Heal +2 HP"
+art = ExtResource("1_sunqv")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"
