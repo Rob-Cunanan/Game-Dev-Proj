@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://di0j0amyve463"]
+
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_q70bf"]
+[ext_resource type="Texture2D" uid="uid://mkkj6qgx508k" path="res://Assets/Cards/Data/TTRPG-Art-Asset_48.png" id="1_tqcw7"]
+
+[resource]
+script = ExtResource("1_q70bf")
+card_name = "Pink Potion"
+rarity = "R"
+affinity = "Priest"
+effect_text = "Heal 20 HP. [Soul Bond: All current skeletons enhanced permanently]"
+art = ExtResource("1_tqcw7")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

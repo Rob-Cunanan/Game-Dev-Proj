@@ -8,6 +8,6 @@ script = ExtResource("2_a6hjm")
 card_name = "Triple Daggers"
 rarity = "M"
 affinity = "Warrior"
-effect_text = "Deal 28 damage"
+effect_text = "Deal 10 damage  four times."
 art = ExtResource("1_j3twp")
 metadata/_custom_type_script = "uid://dcf3gp1byimu7"

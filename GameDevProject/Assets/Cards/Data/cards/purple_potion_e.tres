@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://roxp6raxl7e0"]
+
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_8uagd"]
+[ext_resource type="Texture2D" uid="uid://bf42gia68upbe" path="res://Assets/Cards/Data/TTRPG-Art-Asset_49.png" id="1_t0ooo"]
+
+[resource]
+script = ExtResource("1_8uagd")
+card_name = "Purple Potion"
+rarity = "E"
+affinity = "Mage"
+effect_text = "Deal 22 magic damage to the next enemies.[CONSUMABLE]"
+art = ExtResource("1_t0ooo")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

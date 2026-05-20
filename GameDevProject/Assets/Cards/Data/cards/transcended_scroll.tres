@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://dib8eovc2u68u"]
+
+[ext_resource type="Texture2D" uid="uid://b0tp2ron4l8h" path="res://Assets/Cards/Data/TTRPG-Art-Asset_47.png" id="1_n6dq4"]
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_v5n6l"]
+
+[resource]
+script = ExtResource("1_v5n6l")
+card_name = "Trannscended Scroll"
+rarity = "EX"
+affinity = "Any"
+effect_text = "At the start of the floor copy the last card chosen"
+art = ExtResource("1_n6dq4")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

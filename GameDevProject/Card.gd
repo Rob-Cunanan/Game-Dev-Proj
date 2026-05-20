@@ -47,9 +47,12 @@ var affinity_badges = {
 	"Warrior": preload("res://Assets/Cards/Badges/badge_warrior.tres"),
 	"Mage": preload("res://Assets/Cards/Badges/badge_mage.tres"),
 	"Priest": preload("res://Assets/Cards/Badges/badge_priest.tres"),
+	"Warrior/Mage": preload("res://Assets/Cards/Badges/badge_warrior.tres"),
 	"Warrior/Priest": preload("res://Assets/Cards/Badges/badge_warrior.tres"),
 	"Mage/Warrior": preload("res://Assets/Cards/Badges/badge_mage.tres"),
 	"Mage/Priest": preload("res://Assets/Cards/Badges/badge_mage.tres"),
+	"Priest/Mage": preload("res://Assets/Cards/Badges/badge_priest.tres"),
+	"Priest/Warrior": preload("res://Assets/Cards/Badges/badge_priest.tres"),
 	"Any": preload("res://Assets/Cards/Badges/badge_warrior.tres")
 }
 

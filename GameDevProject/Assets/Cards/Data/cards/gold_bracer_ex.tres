@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://jbrghr4xf6ec"]
+
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_tkcd5"]
+[ext_resource type="Texture2D" uid="uid://bxdvynucex4ln" path="res://Assets/Cards/Data/TTRPG-Art-Asset_33.png" id="1_xkw4p"]
+
+[resource]
+script = ExtResource("1_tkcd5")
+card_name = "Gold Bracer "
+rarity = "EX"
+affinity = "Warrior/Mage"
+effect_text = " Deals 10 magic damage Unlocks: Magic Swordsman class"
+art = ExtResource("1_xkw4p")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

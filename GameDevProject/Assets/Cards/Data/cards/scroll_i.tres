@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://dhm4cxm04qfdr"]
+
+[ext_resource type="Texture2D" uid="uid://ckd2eqw417b38" path="res://Assets/Cards/Data/TTRPG-Art-Asset_46.png" id="1_kmmvl"]
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_ve8ht"]
+
+[resource]
+script = ExtResource("1_ve8ht")
+card_name = "Scroll I"
+rarity = "UC"
+affinity = "Any"
+effect_text = "Copy the last card chosen [Soul Bond: Dead skeletons respawn once]"
+art = ExtResource("1_kmmvl")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

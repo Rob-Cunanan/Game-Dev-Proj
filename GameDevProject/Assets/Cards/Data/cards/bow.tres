@@ -7,6 +7,6 @@
 script = ExtResource("1_ny3wv")
 card_name = "Bow"
 affinity = "Warrior"
-effect_text = "Deal 9 damage "
+effect_text = "Deal 5 damage two times"
 art = ExtResource("1_mtubq")
 metadata/_custom_type_script = "uid://dcf3gp1byimu7"

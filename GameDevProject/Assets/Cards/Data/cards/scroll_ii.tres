@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://b6lu0c6qmwnmt"]
+
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_7o887"]
+[ext_resource type="Texture2D" uid="uid://b0tp2ron4l8h" path="res://Assets/Cards/Data/TTRPG-Art-Asset_47.png" id="1_p0qhg"]
+
+[resource]
+script = ExtResource("1_7o887")
+card_name = "Scroll II"
+rarity = "R"
+affinity = "Any"
+effect_text = "Copy the last 2 cards chosen"
+art = ExtResource("1_p0qhg")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

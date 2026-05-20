@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://wtle6ag0hg4f"]
+
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_1xm4u"]
+[ext_resource type="Texture2D" uid="uid://cqvc132x73aec" path="res://Assets/Cards/Data/TTRPG-Art-Asset_20.png" id="1_pyvyh"]
+
+[resource]
+script = ExtResource("1_1xm4u")
+card_name = "Winged Helmet "
+rarity = "EX"
+affinity = "Any"
+effect_text = "Gain 5 Block at start of every floor. Unlocks: Any hybrid class."
+art = ExtResource("1_pyvyh")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

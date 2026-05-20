@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://36jr3l8uf8j2"]
+
+[ext_resource type="Texture2D" uid="uid://dm2a323fy4ksw" path="res://Assets/Cards/Data/TTRPG-Art-Asset_26.png" id="1_dva18"]
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_edk08"]
+
+[resource]
+script = ExtResource("1_edk08")
+card_name = "Aegis of the Warlord "
+rarity = "L"
+affinity = "Warrior"
+effect_text = "Gain 20 Block. First attack on every floor deals double damage. Gain 5 Block  at start of every floor. [If Swordsmaster or Paladin: reflect 5 damage on every hit taken.]"
+art = ExtResource("1_dva18")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

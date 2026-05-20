@@ -8,6 +8,6 @@ script = ExtResource("1_e5dmw")
 card_name = "Long Necklace"
 rarity = "UC"
 affinity = "Priest"
-effect_text = "Heal 6 HP."
+effect_text = "Heal 6 HP.  [Soul Bond: 50% of heals go to skeletons]"
 art = ExtResource("1_cv1g1")
 metadata/_custom_type_script = "uid://dcf3gp1byimu7"

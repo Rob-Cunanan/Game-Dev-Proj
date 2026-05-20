@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://dso4i7yhvqb5h"]
+
+[ext_resource type="Texture2D" uid="uid://ceqocxce7ryih" path="res://Assets/Cards/Data/TTRPG-Art-Asset_44.png" id="1_jris1"]
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_yxr5x"]
+
+[resource]
+script = ExtResource("1_yxr5x")
+card_name = "Jeweled Sash "
+rarity = "EX"
+affinity = "Warrior/Priest"
+effect_text = "Healing cards also deal 50% as Holy damage. Unlocks: Holy Knight class."
+art = ExtResource("1_jris1")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://dewcfwtfvm2q6"]
+
+[ext_resource type="Texture2D" uid="uid://cu7la14jcwe0n" path="res://Assets/Cards/Data/TTRPG-Art-Asset_29.png" id="1_d5ymg"]
+[ext_resource type="Script" uid="uid://dcf3gp1byimu7" path="res://CardData.gd" id="1_rtahx"]
+
+[resource]
+script = ExtResource("1_rtahx")
+card_name = "Crown of the Eternal Flame"
+rarity = "L"
+affinity = "Priest"
+effect_text = "Heal 25 HP. All healing also deals 50% as Holy damage.  [If Necromancer: summon one Enhanced Skeleton permanently.]"
+art = ExtResource("1_d5ymg")
+metadata/_custom_type_script = "uid://dcf3gp1byimu7"
